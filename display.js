@@ -3,8 +3,9 @@ function first_show(){
     let change = document.querySelector('#Show a');
     change.innerHTML = '>>Show details';
     console.log('aaa');
-    
+    let extra = document.querySelector('#extra');
     display.removeEventListener('click',first_show);
+    
     display.addEventListener('click',show);
 }
 
