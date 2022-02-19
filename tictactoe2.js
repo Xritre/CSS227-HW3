@@ -18,19 +18,19 @@ function add(event){
         //player turn -> 1,3,5..
         if(turn %2 ==1  )
         {
-            // if(event.target.textContent === '')
-            // {
+            if(event.target.textContent === '')
+            {
                 event.target.textContent = 'x'; 
                 table_check();
                 turn++;
                 //After click on other empty tiles
                 result.textContent = ''; 
-            // }
+            }
             // if click on played tiles . Messagage appeear!
-            // else
-            // {
-            //     result.textContent = 'Please Choose other tiles';
-            // }
+            else
+            {
+                result.textContent = 'Please Choose other tiles';
+            }
             
         } 
         
@@ -40,7 +40,6 @@ function add(event){
         {
            
                 random_x_o();
-
                 table_check();    
                 turn++;  
             
@@ -71,7 +70,7 @@ function random_x_o(){
     if(table[random]===1 && t1.innerHTML !=='x' )
      {
          t1.innerHTML = 'o';
-         console.log(array[t]) 
+         
      }  
      else if(table[random]===2 && t2.innerHTML !=='x')
      {
