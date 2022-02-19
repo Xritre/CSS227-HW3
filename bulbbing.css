@@ -1,0 +1,36 @@
+
+.outer-box{
+    background: rgb(230, 82, 82); 
+    width: 95%; 
+    height: 150px;
+    border: solid;
+    padding-left: 20px;
+   font-weight: bold;
+    
+}
+.inner-box{
+    background: rgb(223, 159, 159); 
+    width: 80%;
+    height: 50px;
+    margin-left:  30px;
+    margin-top:  10px;
+    border: solid;
+    padding-left: 10px;
+    
+}
+
+
+a.reset {
+    background: rgb(69, 211, 81);
+   text-decoration: none;
+   margin-top:  100px;
+   margin-left: 50%;
+}
+
+.inner-box-bg{
+    background-color: rgb(29, 109, 212);
+}
+
+.outer-box-bg{
+    background: rgb(24, 197, 62);
+}

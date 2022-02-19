@@ -1,0 +1,16 @@
+.no-bottom{
+    border-bottom: transparent
+}
+.no-right{
+    border-right: transparent 
+ } 
+
+th,td{
+    border-right: solid rgb(231, 97, 97);
+    border-bottom: solid rgb(231, 97, 97);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+}
+
